@@ -2,7 +2,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-from src.scripts.model import Model
+from src.scripts.model import Model #import model file
 from sklearn.linear_model import LogisticRegression
 
 #load dataset with either path or name
